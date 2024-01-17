@@ -81,6 +81,10 @@ gets(char *buf, int max)
   return buf;
 }
 
+/**
+ * @param n 路径
+ * @param st 输出的文件结构体
+*/
 int
 stat(const char *n, struct stat *st)
 {
